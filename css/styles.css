@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    
+    /* display: flex; */
+}
+
+p {
+    margin: 0;
+}
+h5 {
+    margin: 0;
+}
+
+
+.post{
+    background-color: white;
+    /* display: flex; */
+    margin: auto;
+    width: 400px;
+}
+
+.post-header{
+    display: flex!important;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+
+    
+}
+.firstelement{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.secondelement{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+}
+.thirtelement{
+    display: flex;
+    justify-content: flex-end;
+    width: 65%;   
+    font-size: 20px;
+
+}
+
+img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.post-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.post-icons{
+    display: flex;
+    gap: 10px;
+}
+.fa{
+    font-size: 25px;
+}
+
+
+
+
